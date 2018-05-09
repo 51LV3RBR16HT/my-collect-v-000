@@ -1,4 +1,4 @@
 def my_collect(empty_array)
-  languages(empty_array) do |lang|
+  languages(my_collect) do |lang|
     lang.upcase
 end
