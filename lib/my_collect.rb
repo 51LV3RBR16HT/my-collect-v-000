@@ -1,6 +1,6 @@
-def my_collect(languages)
-  languages.each do |lang|
-    lang.upcase
-end
-  languages
+def my_collect(languages) do |lang|
+ lang.upcase
+
+
+  end
 end
