@@ -1,6 +1,9 @@
-def my_collect(languages) do |lang|
- lang.upcase
-
-
+def my_collect(languages)
+  collection = []
+  i = 0
+  while i < languages.length
+    collection << yield(languages[i])
+    i += 1
   end
+  collection
 end
