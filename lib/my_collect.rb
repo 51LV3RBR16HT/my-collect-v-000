@@ -1,7 +1,10 @@
 def my_collect(languages)
-  collection = []
-    languages.each do |lang|
-      yield(lang)
+  i = 0
+  while i < languages.length
+    yield(languages[i])
+    i = i + 1
+    # languages.each do |lang|
+    #   yield(lang)
 end
-  collection
+  languages
 end
