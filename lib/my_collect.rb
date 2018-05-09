@@ -1,4 +1,5 @@
 def my_collect(empty_array)
+  languages = []
   languages(empty_array) do |lang|
     lang.upcase
   end
